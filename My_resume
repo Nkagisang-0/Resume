@@ -1,1 +1,189 @@
-git clone https://github.com/your-username/my-resume.git
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nkagisang Matshego - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #252F3E;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid #FF9900;
+            padding: 20px;
+        }
+        h1, h2, h3, h4 {
+            color: #FF9900;
+        }
+        .header, .footer {
+            text-align: center;
+            padding: 10px;
+        }
+        .header img {
+            width: 100px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #FF9900;
+            padding-bottom: 5px;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+        }
+        .section ul li span {
+            font-weight: bold;
+        }
+        .section ul li p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Nkagisang Matshego</h1>
+        <p>Mafikeng, North West, 2744 | 069 470 8266 | nkagisangmatshego75@gmail.com | <a href="http://mysamplewe.site">mysamplewe.site</a></p>
+    </div>
+
+    <div class="section">
+        <h2>Professional Summary</h2>
+        <p>Cloud computing professional with 1-2 years of experience, holding a Cloud Practitioner certification from AWS. Currently expanding my knowledge by pursuing the Solutions Architect certification, aiming to become a cloud architect. Experienced in deploying, managing, and optimizing cloud infrastructure, with strong analytical and problem-solving skills.</p>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <span>Cloud Practitioner Certificate</span>
+                <p>Amazon Web Services, Mafikeng, North West</p>
+                <p>August 2024</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Professional Experience</h2>
+        <ul>
+            <li>
+                <span>Administrative Assistant</span>
+                <p>Independent Congregational Church of South Africa, Mafikeng, North West</p>
+                <p>January 2022 – December 2022</p>
+                <p>Managed and organized office operations, including scheduling, document management, and customer service. Coordinated meetings and events, ensuring smooth logistical arrangements. Maintained databases and records, ensuring accuracy and confidentiality. Provided administrative support to senior staff, enhancing productivity and efficiency.</p>
+                <p><strong>Skills Used:</strong> Microsoft Office, analytical skills, critical thinking, effective communication, and time management.</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>Technical Skills: Python programming, AWS cloud services (EC2, S3, Lambda, DynamoDB, etc.)</li>
+            <li>Soft Skills: Communication, time management, analytical skills, team management, working with people.</li>
+            <li>Languages: English, Setswana, Zulu, Xhosa, beginner Afrikaans.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Cloud Practitioner Certificate - Amazon Web Services</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <span>Creating and Hosting a WordPress Website on AWS EC2</span>
+                <p>Developed and hosted a WordPress website on AWS EC2 to provide a scalable and reliable platform for content management.</p>
+                <p><strong>Technologies Used:</strong> AWS EC2, WordPress, Apache, MySQL, PHP, Route 53, S3 for backups.</p>
+                <p><strong>Role:</strong> Full-stack Developer</p>
+                <ul>
+                    <li>Set up and configured EC2 instances for hosting.</li>
+                    <li>Installed and configured WordPress, Apache, MySQL, and PHP stack.</li>
+                    <li>Implemented domain name management with Route 53.</li>
+                    <li>Automated backups using S3.</li>
+                </ul>
+            </li>
+            <li>
+                <span>Creating a Call Center using Amazon Connect</span>
+                <p>Designed and implemented a cloud-based call center using Amazon Connect to enhance customer service capabilities.</p>
+                <p><strong>Technologies Used:</strong> Amazon Connect, AWS Lambda, DynamoDB, S3, CloudWatch, Lex (for chatbots).</p>
+                <p><strong>Role:</strong> Cloud Solutions Architect</p>
+                <ul>
+                    <li>Set up Amazon Connect for call routing and management.</li>
+                    <li>Integrated with AWS Lambda for serverless processing of call data.</li>
+                    <li>Configured DynamoDB for storing call records and customer interactions.</li>
+                    <li>Implemented S3 for storing call recordings.</li>
+                    <li>Monitored and optimized system performance using CloudWatch.</li>
+                </ul>
+            </li>
+            <li>
+                <span>Developing a Serverless Web Application on AWS</span>
+                <p>Created a scalable, serverless web application to handle dynamic content and user interactions.</p>
+                <p><strong>Technologies Used:</strong> AWS S3, AWS Lambda, Amazon SQS, Amazon DynamoDB, API Gateway, AWS CloudFormation.</p>
+                <p><strong>Role:</strong> Full-stack Developer</p>
+                <ul>
+                    <li>Designed and deployed front-end content on S3.</li>
+                    <li>Developed back-end logic using Lambda functions.</li>
+                    <li>Set up SQS for handling asynchronous tasks.</li>
+                    <li>Used DynamoDB for fast and flexible NoSQL database services.</li>
+                    <li>Exposed APIs using API Gateway.</li>
+                    <li>Automated infrastructure deployment with CloudFormation.</li>
+                </ul>
+            </li>
+            <li>
+                <span>Building a Real-time Data Processing Pipeline</span>
+                <p>Implemented a real-time data processing pipeline to handle streaming data efficiently.</p>
+                <p><strong>Technologies Used:</strong> Apache Kafka, AWS Kinesis, AWS Lambda, Amazon Redshift, AWS Glue, AWS S3.</p>
+                <p><strong>Role:</strong> Data Engineer</p>
+                <ul>
+                    <li>Set up Kafka for data streaming and real-time data ingestion.</li>
+                    <li>Used AWS Kinesis for scalable data streaming.</li>
+                    <li>Processed data in real-time with AWS Lambda.</li>
+                    <li>Stored processed data in Amazon Redshift for analytics.</li>
+                    <li>Orchestrated data workflows with AWS Glue.</li>
+                    <li>Used S3 for storing raw and processed data.</li>
+                </ul>
+            </li>
+            <li>
+                <span>Implementing Infrastructure as Code (IaC) with AWS CloudFormation</span>
+                <p>Developed and managed AWS infrastructure using CloudFormation templates for automated, repeatable deployments.</p>
+                <p><strong>Technologies Used:</strong> AWS CloudFormation, AWS EC2, S3, IAM, VPC.</p>
+                <p><strong>Role:</strong> DevOps Engineer</p>
+                <ul>
+                    <li>Created CloudFormation templates to define infrastructure resources.</li>
+                    <li>Automated the provisioning and management of EC2 instances, S3 buckets, IAM roles, and VPC configurations.</li>
+                    <li>Ensured infrastructure consistency and repeatability.</li>
+                    <li>Managed and versioned infrastructure changes using source control.</li>
+                </ul>
+            </li>
+            <li>
+                <span>Setting up AWS CodePipeline and Using Terraform</span>
+                <p>Automated CI/CD pipelines using AWS CodePipeline and managed infrastructure with Terraform.</p>
+                <p><strong>Technologies Used:</strong> AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, Terraform, Git.</p>
+                <p><strong>Role:</strong> DevOps Engineer</p>
+                <ul>
+                    <li>Configured AWS CodePipeline for continuous integration and deployment.</li>
+                    <li>Integrated CodeBuild and CodeDeploy for building and deploying applications.</li>
+                    <li>Wrote Terraform scripts for managing infrastructure as code.</li>
+                    <li>Ensured version control of infrastructure changes with Git.</li>
+                    <li>Implemented best practices for CI/CD and infrastructure management.</li>
+                </ul>
+            </li>
+        </ul>
+    </
+
